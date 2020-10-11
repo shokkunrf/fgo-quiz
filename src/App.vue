@@ -1,11 +1,15 @@
 <template>
-  <div></div>
+  <Search />
 </template>
 
 <script>
+import Search from "@/components/search/Search";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    Search,
+  },
 };
 </script>
 
